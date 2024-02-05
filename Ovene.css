@@ -1,0 +1,94 @@
+
+body{
+	margin: 0px;
+}
+.coffee-header{
+	background-color: brown;
+	height: 140px;
+	width: 100%;
+	right: 0px;
+	left: 0px;
+	position: relative;
+	z-index: 100;
+
+}
+
+.logo-bar{
+	height: 100%;
+	text-align: center;
+	margin: 1px;
+	float: left;
+}
+
+.logo-text{
+	display: block;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: white;
+}
+
+.coffee-nav{
+	float:left;
+	height: 100%;
+}
+
+.coffee-nav a{
+	color: white;
+	font-size: 25px;
+	font-weight:200;
+	font-family: "Helvetica Neue";
+	padding-right: 0px;
+	padding-top: 10%;
+	display: inline-block;
+
+}
+
+.site-content{
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+
+.image-content{
+	background-image: url(aequs.png);
+	height: 600px;
+	width: 100%;
+	text-align: center;
+
+}
+
+.quote{
+	color: white;
+	font-family: "Helvetica Neue";
+	position: relative;
+	top: 10px;
+
+}
+
+.card-list{
+	width: 100%;
+}
+
+#product{
+	text-align: center;
+
+}
+.card{
+	width: 22%;
+	padding: 2px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+
+.card img{
+	width: 100%;
+}
+
+.Order-section{
+	width: 100%;
+}
+
+#Order{
+	text-align: center;
+}
